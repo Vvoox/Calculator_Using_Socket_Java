@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="515.0" prefWidth="685.0">
+         <children>
+            <TextArea fx:id="input" layoutX="89.0" layoutY="23.0" prefHeight="102.0" prefWidth="200.0" promptText="Input" />
+            <TextArea fx:id="output" layoutX="390.0" layoutY="23.0" prefHeight="102.0" prefWidth="200.0" promptText="Output" />
+            <Button fx:id="number1" layoutX="89.0" layoutY="202.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="1" />
+            <Button layoutX="89.0" layoutY="258.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="4" />
+            <Button fx:id="number7" layoutX="89.0" layoutY="316.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="7" />
+            <Button layoutX="206.0" layoutY="202.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="2" />
+            <Button fx:id="number5" layoutX="206.0" layoutY="258.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="5" />
+            <Button fx:id="number8" layoutX="206.0" layoutY="316.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="8" />
+            <Button fx:id="number0" layoutX="206.0" layoutY="388.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="0" />
+            <Button fx:id="number3" layoutX="322.0" layoutY="202.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="3" />
+            <Button fx:id="number6" layoutX="322.0" layoutY="258.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="6" />
+            <Button fx:id="number9" layoutX="322.0" layoutY="316.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="9" />
+            <Button fx:id="calculate" layoutX="498.0" layoutY="202.0" mnemonicParsing="false" onAction="#getTextInputAndFiltreIt" prefHeight="52.0" prefWidth="92.0" text="Calculate" />
+            <Button fx:id="clear" layoutX="498.0" layoutY="284.0" mnemonicParsing="false" onAction="#clearInputAndOutput" prefHeight="52.0" prefWidth="92.0" text="Clear" />
+            <Button fx:id="close" layoutX="498.0" layoutY="362.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="92.0" text="Close" />
+            <Button fx:id="plus" layoutX="415.0" layoutY="202.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="+" />
+            <Button fx:id="minus" layoutX="415.0" layoutY="258.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="-" />
+            <Button fx:id="multiply" layoutX="415.0" layoutY="316.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="*" />
+            <Button fx:id="divide" layoutX="415.0" layoutY="378.0" mnemonicParsing="false" onAction="#showInText" prefHeight="36.0" prefWidth="49.0" text="/" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
